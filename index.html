@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Login Site</title>
+        <link href="./index.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://kit.fontawesome.com/041374d9d6.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="part1">
+            <h1>Learn to code by <br> watching others</h1>
+            <p>See how experienced developers solve problems in real-time.<br>
+             Watching scripted tutorials is great, but understanding how <br>
+              developers think is invaluable.</p>
+            
+        </div>
+        <div id="part2">
+            <button id="sevendays">Try it free 7 days then $20/mo. thereafter</button>
+            <form id="form">
+                <input type="text" id="firstname" class="redborder" name="firstname" placeholder="Firstname">
+                <i id="warningOne" class="fa-sharp fa-solid fa-circle-exclamation warning"></i>
+                <span id="errorOne" class="error">Firstname cannot be empty</span>
+                <input type="text" id="lastname" class="redborder" name="lastname" placeholder="Lastname">
+                <i id="warningTwo" class="fa-sharp fa-solid fa-circle-exclamation warning"></i>
+                <span id="errorTwo"  class="error">Lastname cannot be empty</span>
+                <input type="text" id="email" class="redborder" name="email" placeholder="Email Adress">
+                <i id="warningThree" class="fa-sharp fa-solid fa-circle-exclamation warning"></i>
+                <span id="errorThree" class="error">Looks like this is not an email</span>
+                <input type="password" id="password" class="redborder" name="password" placeholder="Password">
+                <i id="warningFour" class="fa-sharp fa-solid fa-circle-exclamation warning"></i>
+                <span id="errorFour" class="error">Password cannot be empty</span>
+                <button id="submit" type="submit">Claim your free trial</button>
+                <p id="terms">By clicking the button, you are agreeing to our <span class="terms">Terms and Services</span></p>
+            </form>
+            <script src="./index.js"></script>
+        </div>
+    </body>
+</html>
